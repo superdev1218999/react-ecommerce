@@ -5,7 +5,6 @@ import Loader from './Loader';
 import './App.css';
 import Strapi from 'strapi-sdk-javascript/build/main';
 
-// const apiUrl = process.env.API_URL || 'http://localhost:3000';
 const apiUrl ='http://devsecret.com:3000';
 const strapi = new Strapi(apiUrl);
 
